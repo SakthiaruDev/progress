@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      
+     body{
+        text-align:center;
+    }
+
+	#progress{
+		margin:20px auto;
+		width:80%;
+		height:40px;
+		background-color: #ddd;
+		position:relative;
+	}
+    p{
+        font-size: 25px; 
+        font-weight:600;
+    }
+
+	#bar{
+		background-color:turquoise;
+		width:20px;
+		height:40px;
+		position:absolute;
+	}
+  
+    </style>
+</head>
+<body>
+
+	<h1>Downloading Progress</h1>
+
+      <div id="progress">
+        <div id="bar" style="width: 100%;"></div>
+      </div>
+      <p id="download">100 % Completed</p>
+
+
+    <script src="js/main.js"></script>
+    
+</body>
+</html>
